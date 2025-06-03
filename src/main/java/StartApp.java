@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class StartApp {
+import controller.TransferController;
+
+public class StartApp {
+    public static void main(String[] args) {
+        TransferController controller = new TransferController();
+        controller.start();
+    }
 }
